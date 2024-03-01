@@ -4,28 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TaxPal - Accounting made simple for small businesses</title>
 
     <style>
           /* Add the transparent border to the buttons */
   .feature-button {
-    border: 1px solid transparent;
+    border: 1px solid transparent; 
   }
         .active-btn {
           background-color: rgba(255, 255, 255, 0.1); /* White with 30% opacity */
           border: 1px solid rgba(176, 176, 176, 0.3); /* Gray border with 30% opacity */
         }
+        @media (max-width: 1023px) {
+  /* Styles for small and medium screens, including many tablets */
+  .active-btn {
+    background-color: rgb(255, 255, 255); /* White with 30% opacity */
+    border: 1px solid rgba(176, 176, 176, 0.3); /* Gray border with 30% opacity */
+    color: #3182ce; /* Blue text color */
+  }
+
+  
+}
+
       </style>
       
-  <link rel="stylesheet" crossorigin href="/assets/index-BJNW2Y_0.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-2_PCak5u.css">
 </head>
 
 <body>
-    <div class="h-fit w-screen ">
+    <div class="w-screen h-fit ">
 
         <h1 class="lg:text-7xl text-5xl font-bold text-[#0f172a] text-center pt-52 sm:text-5xl  md:text-5xl  ">
             Accounting
-            <span class="relative whitespace-nowrap text-blue-600"><svg aria-hidden="true" viewBox="0 0 418 42"
+            <span class="relative text-blue-600 whitespace-nowrap"><svg aria-hidden="true" viewBox="0 0 418 42"
                     class="absolute left-0 top-2/3 h-[0.58em] w-full fill-blue-300/70" preserveAspectRatio="none">
                     <path
                         d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z">
@@ -42,7 +53,7 @@
                 free</button>
             <button
                 class="flex items-center space-x-4  bg-white border rounded-full p-2 px-5 font-light hover:border-gray-400 hover:text-black text-[#434f62]  "><svg
-                    aria-hidden="true" class="h-3 w-3 flex-none fill-blue-600 group-active:fill-current">
+                    aria-hidden="true" class="flex-none w-3 h-3 fill-blue-600 group-active:fill-current">
                     <path
                         d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z">
                     </path>
@@ -52,7 +63,7 @@
         <p class="text-center text-[#334155] text-[18px] my-10 mx-0 px-0 font-sans pt-28 ">Trusted by these six
             companies so far</p>
 
-        <div class="grid mx-36 pb-20 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 ">
+        <div class="grid grid-cols-2 gap-2 pb-20 mx-24 md:mx-36 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 ">
             <div><img src="data:image/svg+xml,%3csvg%20width='158'%20height='48'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23a)'%20fill='%23334155'%3e%3cpath%20d='M55.423%2018.178v-2.491H66.38v2.491h-4.076v13.875H59.47V18.178h-4.047Zm18.098%204.577a7.526%207.526%200%200%200-1.33-.116c-1.82%200-2.89%201.188-2.89%203.592v5.793h-2.69v-11.47h2.631v1.622h.058c.52-.985%201.677-2%203.21-2%20.433%200%20.722.03%201.011.059v2.52Zm12.866%209.269h-2.602v-1.448h-.058c-.78.985-2.024%201.883-3.932%201.883-2.573%200-5.493-2.057-5.493-6.17%200-3.65%202.573-6.083%205.695-6.083%201.908%200%203.065%201.013%203.76%201.911h.057v-1.564h2.602v11.471h-.03.001Zm-5.898-1.94c1.763%200%203.411-1.536%203.411-3.738%200-2.317-1.503-3.852-3.382-3.852-2.37%200-3.499%201.912-3.499%203.795%200%201.911%201.1%203.794%203.47%203.794v.001Zm9.021-9.531h2.66v1.449h.057c.896-1.304%202.226-1.825%203.498-1.825%202.371%200%204.453%201.564%204.453%205.243v6.604h-2.69v-6.46c0-1.97-.924-3.012-2.457-3.012-1.677%200-2.833%201.188-2.833%203.418v6.083H89.51v-11.5h.001Zm18.792%202.955c-.116-.84-.752-1.39-1.533-1.39-.925%200-1.445.579-1.445%201.216%200%20.695.347%201.188%202.341%201.854%202.458.782%203.325%202.057%203.325%203.679%200%202.114-1.59%203.592-4.221%203.592-2.746%200-4.105-1.507-4.308-3.65h2.487c.115.956.694%201.68%201.879%201.68%201.012%200%201.59-.637%201.59-1.42%200-.868-.491-1.419-2.399-2.056-2.14-.695-3.239-1.767-3.239-3.563%200-1.883%201.475-3.273%203.903-3.273%202.458%200%203.759%201.448%204.048%203.33h-2.428v.001Zm5.03-8.227h2.978v2.723h-2.978v-2.723Zm.145%205.272h2.688v11.5h-2.688v-11.5Zm10.986%202.955c-.116-.84-.752-1.39-1.533-1.39-.925%200-1.445.579-1.445%201.216%200%20.695.347%201.188%202.342%201.854%202.457.782%203.324%202.057%203.324%203.679%200%202.114-1.59%203.592-4.221%203.592-2.746%200-4.105-1.507-4.307-3.65h2.486c.116.956.694%201.68%201.879%201.68%201.012%200%201.59-.637%201.59-1.42%200-.868-.491-1.419-2.399-2.056-2.14-.695-3.238-1.767-3.238-3.563%200-1.883%201.474-3.273%203.903-3.273%202.457%200%203.758%201.448%204.047%203.33h-2.428v.001Zm3.845-2.955h1.445v-3.678h2.689v3.678h2.862v2.26h-2.891v5.127c0%201.564.492%201.999%201.59%201.999.463%200%20.983-.087%201.388-.203v2.172c-.607.174-1.359.261-2.024.261-2.862%200-3.614-1.738-3.614-4.084v-5.272h-1.445v-2.26Zm14.311-.376c3.585%200%206.129%202.636%206.129%206.112%200%203.389-2.573%206.17-6.129%206.17-3.498%200-6.129-2.694-6.129-6.17%200-3.563%202.66-6.112%206.129-6.112Zm0%209.877c2.024%200%203.411-1.622%203.411-3.765%200-2.028-1.301-3.737-3.411-3.737-2.053%200-3.412%201.593-3.412%203.737%200%202.201%201.562%203.765%203.412%203.765Zm14.052-7.415c-1.822%200-2.891%201.188-2.891%203.592v5.793h-2.689v-11.47h2.631v1.622h.058c.52-.985%201.676-2%203.209-2%20.433%200%20.722.03%201.012.059v2.52a7.525%207.525%200%200%200-1.33-.116ZM20.816%2037.731a1.39%201.39%200%200%201-1.388-1.39V11.37a1.389%201.389%200%200%201%202.369-.982c.26.26.406.614.406.982v24.97c0%20.753-.636%201.39-1.387%201.39v.001Zm-5.783-12.484h-6.65a1.39%201.39%200%200%201-1.387-1.39c0-.783.607-1.391%201.388-1.391h6.65a1.39%201.39%200%201%201%200%202.78v.001Zm18.243%200h-6.678a1.39%201.39%200%200%201-1.388-1.39c0-.783.607-1.391%201.388-1.391h6.65a1.39%201.39%200%200%201%201.387%201.39c0%20.782-.607%201.39-1.359%201.39v.001Z'%20/%3e%3cpath%20d='M20.816%2044.712C9.338%2044.712%200%2035.356%200%2023.856%200%2012.356%209.338%203%2020.816%203s20.816%209.356%2020.816%2020.856c0%2011.5-9.338%2020.856-20.816%2020.856Zm0-38.931c-9.945%200-18.04%208.11-18.04%2018.075s8.095%2018.075%2018.04%2018.075c9.946%200%2018.04-8.11%2018.04-18.075S30.763%205.781%2020.817%205.781h-.001Z'%20/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='a'%3e%3cpath%20fill='%23fff'%20d='M0%200h158v48H0z'%20/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="Logo 1" class="mx-auto" /></div>
             <div><img src="data:image/svg+xml,%3csvg%20width='105'%20height='48'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M18%204%200%2010v19.5l6%202V37l18%206V11.5l-6%202V4ZM8%2032.167%2018%2035.5V15.608l4-1.333v25.95L8%2035.56v-3.393Z'%20fill='%23334155'%20/%3e%3cpath%20d='M42.9%2020.45V31h4.446V20.45h3.53v-3.392H39.39v3.393h3.51Zm10.205%204.798c0%203.978%202.3%206.006%206.376%206.006%203.9%200%206.396-1.853%206.396-6.045v-8.15H61.43v7.994c0%201.833-.39%202.73-1.95%202.73-1.58%200-1.97-.897-1.97-2.71v-8.015h-4.406v8.19Z'%20fill='%23334155'%20/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M68.965%2031V17.058h5.558c4.017%200%205.733%201.794%205.733%204.777v.078c0%202.906-1.93%204.544-5.538%204.544h-1.346V31h-4.407Zm5.323-7.507h-.916v-3.14h.936c1.15%200%201.755.43%201.755%201.502v.078c0%201.033-.605%201.56-1.775%201.56Z'%20fill='%23334155'%20/%3e%3cpath%20d='M82.563%2031V17.058h4.427v10.53h5.07V31h-9.497Zm11.999-13.942V31h10.218v-3.393h-5.811v-2.086h4.368v-3.1h-4.368v-1.97h5.499v-3.393h-9.906Z'%20fill='%23334155'%20/%3e%3c/svg%3e" alt="Logo 2" class="mx-auto" /></div>
             <div><img src="/assets/3-Byo6Nc7i.svg" alt="Logo 3" class="mx-auto" /></div>
@@ -62,45 +73,41 @@
         </div>
     </div>
 
-    <section
-        class="relative overflow-hidden lg:pb-[0px] pt-20 sm:py-32 bg-[url('img/background-features-1.jpg')] bg-cover bg-center h-fit ">
-        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="lg:text-center sm:text-left md:text-left ">
-                <h2 class="text-3xl text-white sm:text-4xl md:text-5xl font-bold">Everything you need to run your books.
-                </h2>
-                <p class="mt-6 text-lg text-blue-100">Well everything you need if you aren’t that picky about minor
-                    details like tax compliance.</p>
+    <section class="relative overflow-hidden lg:pb-[0px] pt-20 sm:py-32 bg-[url('img/background-features-1.jpg')] bg-cover bg-center h-fit">
+        <div class="relative px-0 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="mx-10 lg:text-center sm:text-left md:text-left">
+                <h2 class="text-3xl font-bold text-white sm:text-4xl md:text-5xl">Everything you need to run your books.</h2>
+                <p class="mt-6 text-lg text-blue-100">Well everything you need if you aren’t that picky about minor details like tax compliance.</p>
             </div>
-            <div class="mt-36  grid grid-cols-1 md:grid-cols-2 gap-4  lg:pb-20">
-                <div class="flex md:flex-col space-y-0 md:space-y-0 overflow-x-auto scrollbar-hide mt-[5%] ">
-                    <!-- Buttons in a slider layout for smaller screens -->
-                    <button class="feature-button px-6 pr-[130px] py-6 text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out  active:bg-opacity-10  text-left hover:bg-white   hover:bg-opacity-10">
-                        Payroll
-                        <p class="text-[15px] font-light">Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.</p>
+
+            <div class="grid grid-cols-1 gap-2 pb-20 mt-5 lg:mt-28 lg:grid-cols-2">
+                <div class="flex flex-1 px-4 py-0 overflow-x-auto bgspace-x-1 md:justify-center lg:justify-normal lg:flex-col">
+                    <!-- Buttons in a slider layout for small and medium screens -->
+                    <button class="feature-button lg:ml-3 md:mx-3 px-6 lg:pr-[130px] lg:py-6 text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out text-left hover:bg-white hover:bg-opacity-10">Payroll
+                        <p class="hidden text-sm font-light text-white lg:block">Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.</p>
                     </button>
                     
-                    <button class="feature-button px-6 pr-[130px] py-6 text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out   text-left hover:bg-white   hover:bg-opacity-10"> Claim
-                        Expenses
-                        <p class=" text-[15px] font-light ">All of your receipts organized into one place, as long as
-                            you don't mind typing in the data by hand.</p>
+                    <button class="feature-button px-6 lg:pr-[130px] md:mx-3 py-6 text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out text-left hover:bg-white hover:bg-opacity-10">Claim Expenses
+                        <p class="hidden text-sm font-light text-white lg:block">All of your receipts organized into one place, as long as you don't mind typing in the data by hand.</p>
                     </button>
-                    <button class="feature-button px-6 pr-[130px] py-6 text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out   text-left hover:bg-white   hover:bg-opacity-10">VAT
-                        Handling
-                        <p class=" text-[15px] font-light ">We only sell our software to companies who don't deal with
-                            VAT at all, so technically we do all the VAT stuff they need.</p>
+                    
+                    <button class="feature-button px-6 lg:pr-[130px] md:mx-3  py-6 text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out text-left hover:bg-white hover:bg-opacity-10">VAT Handling
+                        <p class="hidden text-sm font-light text-white lg:block">We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.</p>
                     </button>
-                    <button class="feature-button px-6 pr-[130px] py-6 text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out hover:bg-white   hover:bg-opacity-10 active:bg-opacity-10  text-left">Reporting
-                        <p class=" text-[15px] font-light ">Easily export your data into an Excel spreadsheet where you
-                            can do whatever the hell you want with it.</p>
+                    
+                    <button class="feature-button px-6 lg:pr-[130px] md:mx-3  py-6 text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out hover:bg-white hover:bg-opacity-10 active:bg-opacity-10 text-left">Reporting
+                        <p class="hidden text-sm font-light text-white lg:block">Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.</p>
                     </button>
                 </div>
-                <div
-                    class="md:col-span-1 lg:col-span-1 relative lg:translate-y-[-5%] lg:translate-x-[-11%]  lg:w-[185%] justify-end">
-                    <!-- Adjusted Screenshot size and overflow -->
-                    <img src="/assets/payroll-4Gct5Lnz.webp" alt="Feature screenshot"
-                        class="w-[calc(100%+4rem)] lg:w-[calc(100%+8rem)] xl:w-[calc(100%+12rem)]  rounded-xl shadow-xl shadow-blue-900/20 object-cover object-right">
+                <!-- Container for dynamic paragraph -->
+                <p class="pb-8 mx-10 mt-4 text-center text-white feature-description lg:hidden"></p>
+                <div class="md:col-span-1 lg:col-span-1 relative lg:translate-y-[-5%] lg:translate-x-[-11%] lg:w-[185%] justify-end translate-x-[6%] ">
+                    <!-- Screenshot -->
+                    <img src="/assets/payroll-4Gct5Lnz.webp" alt="Feature screenshot" class="object-cover object-right w-full shadow-xl rounded-xl shadow-blue-900/20">
                 </div>
             </div>
+            
+            
         </div>
     </section>
 
@@ -110,47 +117,60 @@
 
 
 
-
-
-
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const buttons = document.querySelectorAll('.feature-button'); // Corrected selector to target buttons
-            const screenshot = document.querySelector('img[alt="Feature screenshot"]'); // Selector to target the feature screenshot image
-
-            const images = {
-                "Payroll": "img/payroll.webp",
-                "Claim Expenses": "img/expenses.webp",
-                "VAT Handling": "img/vat-returns.webp",
-                "Reporting": "img/reporting.webp"
+            const buttons = document.querySelectorAll('.feature-button');
+            const screenshot = document.querySelector('img[alt="Feature screenshot"]');
+            const featureDescription = document.querySelector('.feature-description');
+    
+            const features = {
+                "Payroll": {
+                    img: "img/payroll.webp",
+                    desc: "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported."
+                },
+                "Claim Expenses": {
+                    img: "img/expenses.webp",
+                    desc: "All of your receipts organized into one place, as long as you don't mind typing in the data by hand."
+                },
+                "VAT Handling": {
+                    img: "img/vat-returns.webp",
+                    desc: "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need."
+                },
+                "Reporting": {
+                    img: "img/reporting.webp",
+                    desc: "Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it."
+                },
+                // Add other features here
             };
-
-            buttons.forEach(button => {
-                button.addEventListener('click', function() {
-                    // Determine the feature name from the button text
-                    const featureName = this.innerText.split('\n')[0].trim();
-                    // Update the screenshot's source based on the clicked button
-                    if (images[featureName]) {
-                        screenshot.src = images[featureName];
-                    }
-
-                    // Remove the 'active-btn' class from all buttons and add it to the clicked one
-                    buttons.forEach(btn => btn.classList.remove('active-btn'));
-                    this.classList.add('active-btn');
-                });
-            });
-
-            // Set the first button as active and its corresponding image on initial load
-            if (buttons.length > 0) {
-                buttons[0].classList.add('active-btn');
-                const initialFeatureName = buttons[0].innerText.split('\n')[0].trim();
-                if (images[initialFeatureName]) {
-                    screenshot.src = images[initialFeatureName];
+    
+            // Function to update the feature description and screenshot based on the selected feature
+            function updateFeatureDescription(featureName) {
+                if (features[featureName]) {
+                    featureDescription.textContent = features[featureName].desc;
+                    screenshot.src = features[featureName].img;
                 }
             }
+    
+            // Set the first button as active by default
+            buttons[0].classList.add('active-btn');
+            updateFeatureDescription(buttons[0].textContent.trim().split('\n')[0]);
+    
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Highlight the active button and remove active class from other buttons
+                    buttons.forEach(btn => btn.classList.remove('active-btn'));
+                    this.classList.add('active-btn');
+                    // Update the feature description and screenshot based on the clicked button
+                    const featureName = this.textContent.trim().split('\n')[0];
+                    updateFeatureDescription(featureName);
+                });
+            });
         });
     </script>
-      
+    
+
+
+
 </body>
 
 </html>
