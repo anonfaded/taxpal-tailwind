@@ -20,9 +20,13 @@
   .active-btn {
     background-color: rgb(255, 255, 255); /* White with 30% opacity */
     border: 1px solid rgba(176, 176, 176, 0.3); /* Gray border with 30% opacity */
-    color: #000000; /* Blue text color */
+    color: #046df6; /* Blue text color */
+    padding: 5px 15px;
+    
   }
-
+  .active-btn:hover {
+    color: rgb(255, 253, 253);
+  }
   
 }
         /* Add your CSS styles here for carousel posts with tabs*/
@@ -37,7 +41,7 @@
 
       </style>
       
-  <link rel="stylesheet" crossorigin href="/assets/index-CvCBf7F5.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-ry23ZOeO.css">
 </head>
 
 <body>
@@ -81,45 +85,70 @@
             <div><img src="/assets/6-CvvvqCHB.svg" alt="Logo 6" class="mx-auto" /></div>
         </div>
     </div>
+ 
 
+    <!-- this is second section with tab buttons  -->
     <section class="relative overflow-hidden lg:pb-[0px] pt-20 sm:py-32 bg-[url('img/background-features-1.jpg')] bg-cover bg-center h-fit">
-        <div class="relative px-0 mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div class="mx-10 lg:text-center sm:text-left md:text-left">
+        
+        <!-- below div i made small by moving out tabs -->
+        
+        <div class="relative mx-auto md:px-36 max-w-7xl sm:px-6 lg:px-8">
+            <div class="mx-10 lg:text-center sm:text-left md:text-center">
                 <h2 class="text-3xl font-bold text-white sm:text-4xl md:text-5xl">Everything you need to run your books.</h2>
                 <p class="mt-6 text-lg text-blue-100">Well everything you need if you aren’t that picky about minor details like tax compliance.</p>
             </div>
+        </div>
 
-            <div class="grid grid-cols-1 gap-2 pb-20 mt-5 lg:mt-28 lg:grid-cols-2">
-                <div class="whitespace-nowrap flex flex-1 px-4 py-0 overflow-x-auto bgspace-x-1 md:justify-center lg:justify-normal lg:flex-col">
-                    <!-- Buttons in a slider layout for small and medium screens -->
-                    <button class="feature-button lg:ml-3 md:mx-3 px-6 lg:pr-[130px] lg:py-6 text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out text-left hover:bg-white hover:bg-opacity-10">Payroll
-                        <p class="hidden text-sm font-light text-white lg:block">Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.</p>
+        <!-- tabs are below -->
+        
+            <div class="grid grid-cols-1 gap-2 pb-20 mt-5 lg:pt-28 lg:grid-cols-2 md:px-10 ">
+                    <div class="z-10 flex flex-1 px-4 pt-8 pb-4 mt-10 space-x-4 overflow-x-auto whitespace-nowrap lg:whitespace-normal md:justify-center md:whitespace-normal md:flex md:flex-row lg:flex-col">                     <!-- Buttons in a slider layout for small and medium screens -->
+
+    
+                    <button class="px-6 text-lg font-medium text-left text-white transition-all duration-300 ease-in-out feature-button lg:ml-4 lg:py-6 rounded-3xl lg:rounded-xl hover:bg-white hover:bg-opacity-10">Payroll
+                        <p class="hidden text-sm font-light text-left text-white lg:block">Keep track of everyone's salaries and whether or not they've<br> been paid. Direct deposit not supported.</p>
                     </button>
                     
-                    <button class="feature-button px-6 lg:pr-[130px] md:mx-3  text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out text-left hover:bg-white hover:bg-opacity-10">Claim Expenses
-                        <p class="hidden text-sm font-light text-white lg:block">All of your receipts organized into one place, as long as you don't mind typing in the data by hand.</p>
+                    <button class="px-6 text-lg font-medium text-left text-white transition-all duration-300 ease-in-out feature-button lg:py-6 md:mx-3 rounded-3xl lg:rounded-xl hover:bg-white hover:bg-opacity-10">Claim Expenses
+                        <p class="hidden pr-[130px] text-sm font-light text-white lg:block">All of your receipts organized into one place, as long as you don't mind typing in the data by hand.</p>
                     </button>
                     
-                    <button class="feature-button px-6 lg:pr-[130px] md:mx-3  text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out text-left hover:bg-white hover:bg-opacity-10">VAT Handling
-                        <p class="hidden text-sm font-light text-white lg:block">We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.</p>
+                    <button class="px-6 text-lg font-medium text-left text-white transition-all duration-300 ease-in-out feature-button lg:py-6 md:mx-3 rounded-3xl lg:rounded-xl hover:bg-white hover:bg-opacity-10">VAT Handling
+                        <p class="hidden pr-[130px] text-sm font-light text-white lg:block">We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.</p>
                     </button>
                     
-                    <button class="feature-button px-6 lg:pr-[130px] md:mx-3  text-lg font-medium text-white rounded-xl transition-all duration-300 ease-in-out hover:bg-white hover:bg-opacity-10 active:bg-opacity-10 text-left">Reporting
-                        <p class="hidden text-sm font-light text-white lg:block">Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.</p>
-                    </button>
+                    <button class="px-6 text-lg font-medium text-left text-white transition-all duration-300 ease-in-out feature-button lg:py-6 md:mx-3 rounded-3xl lg:rounded-xl hover:bg-white hover:bg-opacity-10 active:bg-opacity-10">Reporting
+                        <p class="hidden pr-[130px] text-sm font-light text-white lg:block">Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.</p>
+                    </button> 
+                
                 </div>
-                <!-- Container for dynamic paragraph -->
-                <p class="pb-8 mx-10 mt-4 text-center text-white feature-description lg:hidden"></p>
-                <div class="md:col-span-1 lg:col-span-1 relative lg:translate-y-[-5%] lg:translate-x-[-11%] lg:w-[185%] justify-end translate-x-[6%] ">
+        <!-- Container for dynamic paragraph -->
+
+                
+                    
+                <p class="pb-8 mx-10 text-left text-white md:px-28 md:text-center feature-description lg:hidden"></p>
+                
+                <div class="relative z-10 sm:col-span-1  md:col-span-1 lg:col-span-1  lg:translate-y-[-5%] lg:translate-x-[-11%] lg:w-[185%] md:w-[907px]  md:justify-center w-[129%]  translate-x-[2%] md:translate-x-0 ">
                     <!-- Screenshot -->
-                    <img src="/assets/payroll-4Gct5Lnz.webp" alt="Feature screenshot" class="object-cover object-right w-full shadow-xl rounded-xl shadow-blue-900/20">
+                    <img src="/assets/payroll-4Gct5Lnz.webp" alt="Feature screenshot" class="z-10 object-cover object-right w-full shadow-xl rounded-xl shadow-blue-900/20"> 
+                </div> 
+
+                
+                    <!-- the bg under tabs -->
+                <div class="absolute left-0 right-0 z-0 pt-40 bg-white pb-11 md:pb-40 top-72 md:top-80 md:left-10 md:right-10 lg:bg-opacity-0 bg-opacity-15 ring-slate-300 md:rounded-xl" >
                 </div>
+                
+
+                
             </div>
             
             
-        </div>
     </section>
 
+    <!-- second section of tabs end here  -->
+
+
+    
     <!-- now 3rd section of slideslow 3 pics  -->
 
     <section id="secondary-features" aria-label="Features for simplifying everyday business tasks" class="pt-20 pb-14 sm:pb-20 sm:pt-32 lg:pb-32">
